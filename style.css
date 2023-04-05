@@ -3,6 +3,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 8px;  /* remove scrollbar space */
+    background: white;  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+*::selection {
+    background-color: grey;
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
